@@ -1,0 +1,105 @@
+$linkColor: rgb(250, 248, 132);
+$linkHighlightColor: orange;
+
+body {
+	background: #333;
+	color: #ccc;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.App {
+	font-size: 1.6rem;
+	padding: 20px;
+	h1 {
+		font-size: 2.5rem;
+		color: #bbb;
+		text-shadow: 2px 2px 2px #222;
+		font-weight: bold;
+		margin: 0 0 20px 0;
+	}
+	h1:not(:first-of-type) {
+		margin-top: 20px;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0 0 0 0;
+		li {
+			margin: 0 0 5px 0;
+			a {
+				color: $linkColor;
+				text-decoration: none;
+			}
+			a.active {
+				color: $linkHighlightColor;
+				font-weight: bold;
+				&:before {
+					content: "> ";
+				}
+			}
+		}
+	}
+	a {
+		color: $linkColor;
+		text-decoration: none;
+	}
+
+	.areaHome {
+		margin: 20px 0 0 0;
+		background: #444;
+		margin: 20px 0 0 0;
+		padding: 20px;
+		border-radius: 5px;
+	}
+	.areaTopics {
+		background: #444;
+		margin: 20px 0 0 0;
+		padding: 20px;
+		border-radius: 5px;
+	}
+	.areaTopic {
+		background: #555;
+		margin: 20px 0 0 0;
+		padding: 20px 20px 5px 20px;
+		border-radius: 5px;
+		h2 {
+			font-size: 2rem;
+			color: #ddd;
+			font-weight: bold;
+			margin: 10px 0 0 0;
+			padding: 5px;
+		}
+		p {
+			margin: 0 0 10px 5px;
+			font-style: italic;
+		}
+		ul {
+			margin: 0 0 30px 20px;
+		}
+	}
+	.areaResource {
+		background: #ccc;
+		padding: 20px;
+		border: 3px solid orange;
+		border-radius: 5px;
+		color: #000;
+		h3 {
+			font-weight: bold;
+			color: #000;
+		}
+		p {
+			margin: 5px 0;
+			color: #333;
+			font-size: 1.3rem;
+		}
+		.link {
+			font-size: 1.3rem;
+			a {
+				color: green;
+				background: #ddd;
+				&:after, &:before {
+					content: "\00a0";
+				}
+				font-style: italic;
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+- x get it running
+- x recreate with individual pages
+	- x home
+	- x add git
+	- x pageTopics
+	- x put api in data
+	- x rest of pages
+		- x resource page in
+		- x topic page in
+- x nav to navlink
+- x symbols
+- x understand outlet
+- x change to json
+- x change data to howtos
+- x new layout
+- x put in rest of new data
+- x delete siteData copy
+- x post as howto
