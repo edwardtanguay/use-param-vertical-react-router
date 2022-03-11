@@ -10,9 +10,9 @@ export function PageTopic() {
 			<h2>{topic.name} Howtos</h2>
 			<p>{topic.name}: {topic.description}</p>
 			<ul>
-				{topic.resources.map((sub) => (
-					<li key={sub.id}>
-						<NavLink to={sub.id}>{sub.name}</NavLink>
+				{topic.resources.map((resource) => (
+					<li key={resource.id}>
+						<NavLink to={resource.id}>{resource.name}</NavLink>
 					</li>
 				))}
 			</ul>
