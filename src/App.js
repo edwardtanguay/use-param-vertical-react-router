@@ -25,7 +25,7 @@ export default function App() {
 					</li>
 				</ul>
 				<Routes>
-					<Route path="/" element={<PageHome />} />
+					<Route path="/" element={<PageHome />}></Route> 
 					<Route path="/topics" element={<PageTopics />}>
 						<Route path=":topicId" element={<PageTopic />}>
 							<Route path=":resourceId" element={<PageResource />} />
