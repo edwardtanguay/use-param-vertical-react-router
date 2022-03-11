@@ -16,9 +16,6 @@ body {
 		font-weight: bold;
 		margin: 0 0 20px 0;
 	}
-	h1:not(:first-of-type) {
-		margin-top: 20px;
-	}
 	ul {
 		list-style-type: none;
 		margin: 0 0 0 0;
@@ -95,9 +92,7 @@ body {
 			a {
 				color: green;
 				background: #ddd;
-				&:after, &:before {
-					content: "\00a0";
-				}
+				padding: 0 6px;
 				font-style: italic;
 			}
 		}

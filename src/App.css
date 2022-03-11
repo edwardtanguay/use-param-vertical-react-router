@@ -17,10 +17,6 @@ body {
   margin: 0 0 20px 0;
 }
 
-.App h1:not(:first-of-type) {
-  margin-top: 20px;
-}
-
 .App ul {
   list-style-type: none;
   margin: 0 0 0 0;
@@ -114,9 +110,6 @@ body {
 .App .areaResource .link a {
   color: green;
   background: #ddd;
+  padding: 0 6px;
   font-style: italic;
-}
-
-.App .areaResource .link a:after, .App .areaResource .link a:before {
-  content: "\00a0";
 }
